@@ -1,4 +1,6 @@
 httpx
+asyncio
+validator
 socks
 pysocks
 cloudscraper
