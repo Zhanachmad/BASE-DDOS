@@ -1,27 +1,27 @@
 # BASE-DDOS
 
 # clone repository 
- -apt-get update
+ - apt-get update
  
- -apt-get upgrade
+ - apt-get upgrade
  
- -apt-get install python
+ - apt-get install python
  
- -apt-get install python2
+ - apt-get install python2
  
- -apt-get install python3-pip
+ - apt-get install python3-pip
  
- -apt-get install git
+ - apt-get install git
  
- -git clone https://github.com/Zhanachmad/BASE-DDOS.git
+ - git clone https://github.com/Zhanachmad/BASE-DDOS.git
 
- -cd BASE-DDOS
+ - cd BASE-DDOS
 
- -pip install -r requirements.txt
+ - pip install -r requirements.txt
 
- -python setup.py
+ - python setup.py
 
- -python BASE-DDOS.py
+ - python BASE-DDOS.py
  or
 
- -python3 BASE-DDOS.py
+ - python3 BASE-DDOS.py
