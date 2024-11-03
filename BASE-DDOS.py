@@ -31,7 +31,7 @@ def log_attack_status(message, level='info', print_to_terminal=True):
             print(f"{Fore.YELLOW}|    [WARNING] {message.ljust(63)}|")
 
 
-# Fungsi untuk Menampilkan Header BlackCat dengan Warna
+# Fungsi untuk Menampilkan Header BASE dengan Warna
 def display_header():
     header_lines = [ 
         f"{Fore.RED}        @@ @ @ @           @@         @@ @ @       @@ @ @ @   ",
@@ -49,7 +49,7 @@ def display_header():
 
     # Versi dan URL
     print(f"{Fore.WHITE}{Style.BRIGHT}{' ' * 57}v.1.0")
-    print(f"{Fore.CYAN}{Style.BRIGHT}{' ' * 16}https://github.com/Zhanachmad/BlackCat-DDoS")
+    print(f"{Fore.CYAN}{Style.BRIGHT}{' ' * 16}https://github.com/Zhanachmad/BASE-DDOS.git")
     print(f"{Fore.CYAN}|{'=' * 74}|")
 
 # Fungsi untuk Meminta Input dari Pengguna dengan Tampilan Rapi
