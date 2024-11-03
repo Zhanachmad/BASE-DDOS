@@ -41,7 +41,6 @@ def display_header():
         f"{Fore.GREEN}        ©©       ©     ©© © © © ©            ©©    ©©          ", 
         f"{Fore.GREEN}        ©©       ©    ©©         ©           ©©    ©©          ",
         f"{Fore.GREEN}        ©© © © ©     ©©           ©    © © ©©      ©© © © ©     ",
-        f"{Fore.CYAN}=======================================================================",
     ] 
 # Tampilkan header dengan warna
     for line in header_lines:
