@@ -34,13 +34,13 @@ def log_attack_status(message, level='info', print_to_terminal=True):
 # Fungsi untuk Menampilkan Header BlackCat dengan Warna
 def display_header():
     header_lines = [ 
-        f"{Fore.RED}  @@ @ @ @         @@       @@ @ @     @@ @ @ @   @@ @ @      @@ @ @         @@ @        @@ @ @",
-        f"{Fore.RED}  @@       @      @@ @    @@           @@         @@      @   @@      @    @@     @     @@ ",
-        f"{Fore.WHITE}   @@       @     @@   @   @@           @@         @@       @  @@       @  @@       @   @@   ",    
-        f"{Fore.WHITE}   @@ @ @ @      @@     @     @@ @ @    ©© © ©     @@       @  @@       @  @@       @    @@  ",           
-        f"{Fore.GREEN}   ©©       ©   ©© © © © ©          ©©  ©©         ©©       ©  ©©       ©  ©®       ©      ©© ", 
-        f"{Fore.GREEN}   ©©       ©  ©©         ©         ©©  ©©         ©©      ©   ©©      ©    ©©     ©        ©© ",
-        f"{Fore.GREEN}   ©© © © ©   ©©           ©  © © ©©    ©© © © ©   ©© © ©      ©© © ©         ©© ©       ©© ©   ",
+        f"{Fore.RED}        @@ @ @ @           @@         @@ @ @       @@ @ @ @   ",
+        f"{Fore.RED}        @@       @        @@ @      @@             @@           ",
+        f"{Fore.WHITE}        @@       @       @@   @     @@             @@          ",    
+        f"{Fore.WHITE}        @@ @ @ @        @@     @       @@ @ @      ©© © ©      ",           
+        f"{Fore.GREEN}        ©©       ©     ©© © © © ©            ©©    ©©          ", 
+        f"{Fore.GREEN}        ©©       ©    ©©         ©           ©©    ©©          ",
+        f"{Fore.GREEN}        ©© © © ©     ©©           ©    © © ©©      ©© © © ©     ",
         f"{Fore.CYAN}====================================================================================================",
     ] 
 # Tampilkan header dengan warna
